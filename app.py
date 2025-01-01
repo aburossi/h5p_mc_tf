@@ -419,7 +419,7 @@ def main():
     with st.sidebar.expander("Instructions", expanded=False):
         st.info("""
             **Paste JSON:**
-            1. **Paste JSON Content:** Use the text area below to paste your JSON data directly.
+            1. **Paste JSON Content:** Use the text area to paste your JSON data directly.
                 Use [customGPT H5P MF & TF](https://chatgpt.com/g/g-67738981e5e081919b6fc8e93e287453-h5p-mf-tf) to generate the JSON format.
             2. **Process JSON:** Click the "Create H5P Package" button to transform the pasted JSON.
             3. **Download H5P File:** After processing, download your `.h5p` package.
@@ -467,7 +467,7 @@ def main():
     # **End Image Upload Feature**
 
     # JSON Text Area
-    st.header("Paste JSON Content Directly created with [customGPT H5P MF & TF](https://chatgpt.com/g/g-67738981e5e081919b6fc8e93e287453-h5p-mf-tf)")
+    st.header("Paste JSON Content created with [customGPT H5P MF & TF](https://chatgpt.com/g/g-67738981e5e081919b6fc8e93e287453-h5p-mf-tf) below")
     pasted_json = st.text_area("Paste your JSON here:", height=300)
 
     # Path to the template zip
